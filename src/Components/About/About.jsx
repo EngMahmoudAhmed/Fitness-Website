@@ -8,7 +8,7 @@ function About() {
             <section className="about" id="About">
                 <div className="content">
                     <div className="img-content">
-                        <img src="images/gm5.jpg" alt="" />
+                        <img src='images/gm5.jpg' alt=""/>
                     </div>
                     <div className="content-details">
                         <h1>a word about us</h1>
