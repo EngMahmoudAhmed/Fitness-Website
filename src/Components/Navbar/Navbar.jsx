@@ -24,11 +24,12 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link text-white" to="trainer">Trainer</Link>
             </li>
-
+            <li className="nav-item">
+              <Link className="nav-link text-white" to="plan">Plan</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link text-white" to="login">Login</Link>
             </li>
-
             <li className="nav-item">
               <Link className="nav-link text-white" to="register">Register</Link>
             </li>

@@ -3,6 +3,7 @@ import React from "react";
 import About from "../About/About";
 import Service from "../Service/Service";
 import Trainer from "../Trainer/Trainer";
+import Plan from "../Plan/Plan";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <About />
       <Service />
       <Trainer />
+      <Plan />
       
       
 
