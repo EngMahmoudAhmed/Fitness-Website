@@ -15,7 +15,7 @@ const Index = () => {
   return (<>
     <Navbar />
 
-    <div className=' '>
+    <div>
 
       <Routes>
         <Route path='/' element={<Home />} />

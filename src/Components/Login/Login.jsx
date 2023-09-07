@@ -21,7 +21,7 @@ export default function Login() {
   }
   return (<>
     <div className="container vh-100 pt-5">
-      <h3 className="my-3">Register</h3>
+      <h3 className="mt-5 fw-bold">Login</h3>
 
       <form onSubmit={submitRegister}>
 

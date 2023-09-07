@@ -47,25 +47,6 @@ html {
   border-bottom: 0.2rem solid var(--orange);
 }
 
-.fa-spinner {
-  font-size: 50px;
-  animation-name: spin;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function:linear ;
-}
-
-@keyframes spin {
-  from{
-     transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-
-
 /* start media-query and max-width:992px */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -118,7 +99,7 @@ html {
     border: #ff9f1a 2px solid;
     border-radius: 4px;
     text-align: center;
-}
+  }
 
   .service .box-container .row .col-md-4 {
     width: 39%;
@@ -176,8 +157,7 @@ html {
     border: #ff9f1a 2px solid;
     border-radius: 4px;
     text-align: center;
-
-}
+  }
 
   header .toggle-menu {
     display: block;
@@ -232,7 +212,6 @@ html {
 /* start media screen and (min-width: 255px) and (max-width: 576px) */
 
 @media screen and (min-width: 255px) and (max-width: 576px) {
- 
   html {
     font-size: 0.8rem;
   }
@@ -242,7 +221,6 @@ html {
     justify-content: space-between;
   }
 
-  
   header nav {
     display: none;
     width: 100%;
@@ -259,8 +237,7 @@ html {
     border: #ff9f1a 2px solid;
     border-radius: 4px;
     text-align: center;
-
-}
+  }
 
   header nav ul {
     position: absolute;
@@ -274,11 +251,9 @@ html {
     display: block;
   }
 
-  
   .home h1 {
     font-size: 1.7rem;
   }
-
 
   .about .content {
     width: 100%;
@@ -325,7 +300,6 @@ html {
   .register form textarea {
     width: 90%;
   }
-
 }
 
 /* end media screen and (min-width: 255px) and (max-width: 576px) */

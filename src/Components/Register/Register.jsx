@@ -21,7 +21,7 @@ export default function Register() {
   }
   return (
     <div className="container pt-5 mb-5">
-      <h3 className="my-3">Register Now</h3>
+      <h3 className="mt-5 fw-bold">Register Now</h3>
 
       <form onSubmit={submitRegister}>
         <label htmlFor="first_Name">first_Name :</label>
