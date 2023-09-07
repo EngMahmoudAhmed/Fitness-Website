@@ -27,7 +27,7 @@ const Index = () => {
         <Route path='login' element={<Login />} />
         <Route path='register' element={<Register />} />
         <Route path='*' element={<h1 className=' w-100 vh-100 position-fixed d-flex justify-content-center align-items-center'>
-          <div className='fw-bolder text-white'> 404</div>
+          <div className='fw-bolder text-dark'> 404</div>
         </h1>} >
         </Route>
         {/* <Route path='/' element={<Footer />} /> */}

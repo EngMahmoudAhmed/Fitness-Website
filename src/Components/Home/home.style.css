@@ -26,6 +26,7 @@
   .home .btn {
     margin-top: 20px;
     padding: 10px 20;
+    color: #fff;
     border: 2px solid var(--orange);
     display: inline-block;
     transition: all 1s;
