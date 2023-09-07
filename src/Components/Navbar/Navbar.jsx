@@ -11,27 +11,27 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse m-2" id="navbarNav">
-          <ul className="navbar-nav ms-auto  border-2">
+          <ul className="navbar-nav ms-auto border-2">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="home">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="about">About</Link>
+              <Link className="nav-link" to="about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="service">Service</Link>
+              <Link className="nav-link" to="service">Service</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="trainer">Trainer</Link>
+              <Link className="nav-link" to="trainer">Trainer</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="plan">Plan</Link>
+              <Link className="nav-link" to="plan">Plan</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="login">Login</Link>
+              <Link className="nav-link" to="login">Login</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="register">Register</Link>
+              <Link className="nav-link" to="register">Register</Link>
             </li>
 
           </ul>
