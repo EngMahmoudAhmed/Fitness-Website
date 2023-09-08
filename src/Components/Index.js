@@ -30,11 +30,9 @@ const Index = () => {
           <div className='fw-bolder fs-1 text-dark'> 404</div>
         </h1>} >
         </Route>
-        {/* <Route path='/' element={<Footer />} /> */}
-
       </Routes>
     </div>
-    <Footer/>
+    <Footer />
 
 
 

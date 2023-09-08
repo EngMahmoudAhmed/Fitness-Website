@@ -1,7 +1,14 @@
-import React from 'react'
+import { React, useEffect } from 'react';
+import WOW from'wowjs'
 import './service.style.css'
 
 function Service() {
+
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+    }, []);
+
     return (
         <>
             <section className="service" id="Service">
