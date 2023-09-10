@@ -16,9 +16,9 @@ function Navbar() {
       initial={{y:'-100vh'}}
       animate={{ y: 0 }}
       transition={{
-        type: "tween",
-        damping:50,
-        stiffness: 10
+        type: "spring",
+        damping: 30,
+        stiffness: 100
         
         
       }}
