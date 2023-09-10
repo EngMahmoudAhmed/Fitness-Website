@@ -1,10 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { frame,motion } from 'framer-motion';
 import './navbar.style.css'
 
 function Navbar() {
+
+  const spring = {
+    type: "spring",
+    damping: 10,
+    stiffness: 100
+  }
+
   return <>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white position-fixed">
+    <motion.nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white position-fixed"
+      initial={{y:'-100vh'}}
+      animate={{ y: 0 }}
+      transition={{
+        type: "tween",
+        damping:50,
+        stiffness: 10
+        
+        
+      }}
+    >
       <div className="container">
         <Link className="navbar-brand fw-bold fs-4" to="home"><span>BE</span>FIT</Link>
         <button className="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +55,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   </>
 
 }

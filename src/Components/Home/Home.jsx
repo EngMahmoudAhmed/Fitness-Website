@@ -1,4 +1,5 @@
 import "./home.style.css";
+import { motion } from 'framer-motion'
 import React from "react";
 import About from "../About/About";
 import Service from "../Service/Service";
@@ -11,13 +12,28 @@ export default function Home() {
       <section className="home" id="Home">
         <div>
           <div>
-            <h1>
+            <motion.h1
+              initial={{ x: '-100vw' }}
+              animate={{ x: 0 }}
+              transition={{
+                type: "tween",
+                damping: 20,
+                stiffness: 120, }}
+            >
               it's never too easy but
               <br /> you have to try
-            </h1>
-            <div className="btn" type="button">
+            </motion.h1>
+            <motion.div className="btn" type="button"
+              initial={{ x: '-100vw' }}
+              animate={{ x: 0 }}
+              transition={{
+                type: "tween",
+                damping: 70,
+                stiffness: 120,
+              }}
+            >
               get started
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -25,8 +41,8 @@ export default function Home() {
       <Service />
       <Trainer />
       <Plan />
-      
-      
+
+
 
     </>
   );
