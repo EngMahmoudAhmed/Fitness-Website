@@ -31,6 +31,8 @@ export default function Home() {
                 damping: 70,
                 stiffness: 120,
               }}
+              whileHover={{scale:1.1}}
+              
             >
               get started
             </motion.div>
