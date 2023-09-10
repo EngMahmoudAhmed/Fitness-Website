@@ -5,11 +5,7 @@ import './navbar.style.css'
 
 function Navbar() {
 
-  const spring = {
-    type: "spring",
-    damping: 10,
-    stiffness: 100
-  }
+  
 
   return <>
     <motion.nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white position-fixed"
@@ -17,8 +13,10 @@ function Navbar() {
       animate={{ y: 0 }}
       transition={{
         type: "spring",
-        damping: 30,
-        stiffness: 100
+        damping:20,
+        stiffness: 300,
+        delay:.5,
+        
         
         
       }}

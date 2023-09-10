@@ -7,18 +7,37 @@ import Trainer from "../Trainer/Trainer";
 import Plan from "../Plan/Plan";
 
 export default function Home() {
+
+  const containerVariants = {
+    hidden: {
+      x: '-100vw'
+    },
+    visible: {
+      x: 0,
+      transition: {
+        type: "tween",
+        delay: 1.5
+      }
+    }
+
+  }
+
   return (
     <>
       <section className="home" id="Home">
         <div>
           <div>
             <motion.h1
-              initial={{ x: '-100vw' }}
-              animate={{ x: 0 }}
-              transition={{
-                type: "tween",
-                delay:1.5
-                }}
+              // initial={{ x: '-100vw' }}
+              // animate={{ x: 0 }}
+              // transition={{
+              //   type: "tween",
+              //   delay:1.5
+              //   }}
+              variants={containerVariants}
+              initial= 'hidden'
+              animate= 'visible'
+              
             >
               it's never too easy but
               <br /> you have to try
